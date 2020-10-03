@@ -16,5 +16,8 @@ nvm ls
 
 # Use the latest version of node
 nvm use node
+
+# Use a specific version of node
+nvm use 10.10.0
 ```
 
