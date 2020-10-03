@@ -21,3 +21,14 @@ nvm use node
 nvm use 10.10.0
 ```
 
+Git init.
+
+Install the necessary packages using `npm`.
+
+```
+# Create package.json which tracks dependencies
+npm init
+
+# Install the Express package and save it in the dependencies list
+npm install express --save
+```
