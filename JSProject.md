@@ -32,3 +32,10 @@ npm init
 # Install the Express package and save it in the dependencies list
 npm install express --save
 ```
+
+For your `.gitignore`:
+
+```
+node_modules/
+package-lock.json
+```
