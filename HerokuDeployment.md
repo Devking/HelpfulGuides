@@ -2,7 +2,7 @@
 
 Create an account on the [Heroku](https://www.heroku.com/) website.
 
-Install the Heroku CLI using `brew`.
+Install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) using `brew`.
 
 ```
 brew tap heroku/brew && brew install heroku
@@ -40,5 +40,7 @@ Make sure that a `package.json` exists and specifies a Node version.
 ```
 
 First Heroku will look for a `PROCFILE`, and if one is not found, it will run the `start` script specified in `package.json`.
+
+The [Express Generator](https://expressjs.com/en/starter/generator.html) script will create and designate an appropriate `start` script, so you won't need to create any extra files or write any extra code (beyond specifying a Node version) to deploy.
 
 Follow the steps in [Heroku Setup](#Heroku-Setup) above to test locally and deploy.
