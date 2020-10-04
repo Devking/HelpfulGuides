@@ -11,6 +11,9 @@ brew tap heroku/brew && brew install heroku
 Some core Heroku CLI commands:
 
 ```
+# Test a deployment locally
+heroku local
+
 # Log in to the Heroku CLI
 heroku login
 
@@ -38,9 +41,4 @@ Make sure that a `package.json` exists and specifies a Node version.
 
 First Heroku will look for a `PROCFILE`, and if one is not found, it will run the `start` script specified in `package.json`.
 
-Test that it works locally.
-
-```
-# Runs the web server on http:/localhost:5000/
-heroku local
-```
+Follow the steps in [Heroku Setup](#Heroku-Setup) above to test locally and deploy.
