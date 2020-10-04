@@ -48,3 +48,10 @@ pip freeze > requirements.txt
 # Install all the dependencies listed in requirements.txt
 pip install -r requirements.txt
 ```
+
+For `.gitignore`:
+
+```
+__pycache__/
+venv/
+```
