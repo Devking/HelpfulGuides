@@ -1,3 +1,26 @@
+# Heroku Setup
+
+Create an account on the [Heroku](https://www.heroku.com/) website.
+
+Install the Heroku CLI using `brew`.
+
+```
+brew tap heroku/brew && brew install heroku
+```
+
+Some core Heroku CLI commands:
+
+```
+# Log in to the Heroku CLI
+heroku login
+
+# Create a new Heroku app
+heroku create
+
+# Deploy your app on Heroku
+git push heroku master
+```
+
 # Node Deployment
 
 [Heroku's Instructions](https://devcenter.heroku.com/articles/deploying-nodejs)
