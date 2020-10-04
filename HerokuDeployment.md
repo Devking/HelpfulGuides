@@ -75,3 +75,5 @@ python-3.7.1
 ```
 
 This tells Heroku what version of Python to run.
+
+Follow the steps in [Heroku Setup](#Heroku-Setup) above to test locally and deploy.
